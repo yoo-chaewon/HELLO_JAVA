@@ -12,7 +12,8 @@ public class Main {
         }
         Main obj = new Main();
         //obj.SelectSort(count, arr);
-        obj.BubbleSort(count, arr);
+        //obj.BubbleSort(count, arr);
+        obj.InsertSort(count, arr);
 
 
         for (int i = 0; i < count; i++) {
@@ -48,5 +49,20 @@ public class Main {
             }
         }
         return arr;
+    }
+
+    public int[] InsertSort(int count, int[] arr){
+        int key;
+        for (int i = 1 ; i < count ; i++){
+            key = arr[i];
+            for (int j = i-1; j >= 0; j--){
+                if (arr[j] > key){
+                    arr[j+1] = arr[j];
+                    arr[j] = key;
+                }
+                else break;
+            }
+        }
+        return  arr;
     }
 }
