@@ -7,7 +7,6 @@ public class Apartment{
         int[][] apt = new int[15][15];
         int[] k = new int[t];
         int[] n = new int[t];
-
         for (int z = 0 ; z < t; z++) {
             k[z] = sc.nextInt();//kÃş
             n[z] = sc.nextInt();//nÈ£
