@@ -6,21 +6,19 @@ public class Main {
         int size = sc.nextInt();
         int[] arr = new int[size];
         int[] temp = new int[size];
-
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
 
         Main obj = new Main();
-        obj.MergeSort(arr, temp, 0, size-1);
+        //obj.MergeSort(arr, temp, 0, size-1);
+        obj.CountSort();
 
         for (int i = 0; i < size; i++){
             System.out.println(arr[i]);
         }
     }
-
     public void MergeSort(int[] arr, int[] temp, int start, int end) {
-
         if (start < end) {
             int mid = (start + end) / 2;
             MergeSort(arr, temp, start, mid);
@@ -49,5 +47,9 @@ public class Main {
         for (int i = 0; i <= mid-left; i++){//앞쪽배열 남아있을 경우
             arr[temp_cur+i] = temp[left+i];
         }
+    }
+
+    public void CountSort(){
+
     }
 }

@@ -1,6 +1,6 @@
 ## **정렬**
 
-### #src
+### #file name: sort1
 
 #### 선택정렬(Select Sort)
 
@@ -75,7 +75,7 @@ public int[] InsertSort(int count, int[] arr){
 
 
 
-### #src3
+### #file name: sort2
 
 #### 병합정렬(merge Sort)
 
@@ -94,6 +94,8 @@ public int[] InsertSort(int count, int[] arr){
 - 병합 정렬에서 실제로 정렬이 이루어지는 시점은 12개의 리스트를 merge하는 단계에서 일어남
 
 #### 힙정렬
+
+힙 정렬은 완전 이진 트리를 기본으로 하는 힙(Heap) 자료구조를 기반으로한 정렬 방식이다. 완전 이진 트리는 삽입할 때 왼쪽부터 차례대로 추가하는 이진 트리를 말한다. 힙에는 부모 노드의 값이 자식 노드의 값보다 항상 큰 최대 힙과 그 반대인 최소 힙이 존재한다.
 
 #### 퀵정렬
 
