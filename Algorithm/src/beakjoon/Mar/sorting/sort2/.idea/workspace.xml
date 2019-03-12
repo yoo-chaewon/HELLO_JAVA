@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66b4ad3c-4c85-4c2e-a573-2b068e7579c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../0310/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0310/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0310/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0310/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0310/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0310/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0310/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0310/src2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/out/production/src/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0311/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0312/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0312/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0312/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0312/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0312/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0312/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0312/0312.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0312/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting.md" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../study/Mar/1st March.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../others/ArraylistEx/src/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../others/ArraylistEx/src/Singer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others/ArraylistEx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../others/ArraylistEx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others/ArraylistEx/out/production/ArraylistEx/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../others/ArraylistEx/out/production/ArraylistEx/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others/ArraylistEx/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../others/ArraylistEx/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
