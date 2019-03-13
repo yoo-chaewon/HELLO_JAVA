@@ -1,22 +1,45 @@
-import java.util.Scanner;
+import java.awt.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
+        /*
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int size = 0;
+        try {
+            size = Integer.parseInt(br.readLine());
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
         int[] arr = new int[size];
         int[] temp = new int[size];
+
         for (int i = 0; i < size; i++) {
-            arr[i] = sc.nextInt();
+            try {
+                arr[i] = Integer.parseInt(br.readLine());
+            }catch (IOException e){
+                e.printStackTrace();
+            }
         }
-
+*/
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int size = 0;
+        try {
+            size = Integer.parseInt(br.readLine());
+        }catch (IOException e){
+            e.printStackTrace();
+        }
         Main obj = new Main();
-        obj.MergeSort(arr, temp, 0, size-1);
-        //obj.CountSort();
-
+        //obj.MergeSort(arr, temp, 0, size-1);
+        obj.CountSort(br, size);
+/*
         for (int i = 0; i < size; i++){
             System.out.println(arr[i]);
-        }
+        }*/
     }
     public void MergeSort(int[] arr, int[] temp, int start, int end) {
         if (start < end) {
@@ -49,7 +72,52 @@ public class Main {
         }
     }
 
-    public void CountSort(){
-
+    public void CountSort(BufferedReader br, int size){
+        /*
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int size = 0;
+        try {
+            size = Integer.parseInt(br.readLine());
+        }catch (IOException e){
+            e.printStackTrace();
+        }*/
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        for (int i = 0; i <size; i++){
+            try {
+                arr.add(Integer.parseInt(br.readLine()));
+            }catch (IOException e){
+                e.printStackTrace();
+            }
+        }
+        int max = arr.get(0);
+        for (int i = 0; i <size; i++){
+            if (arr.get(i) > max){
+                max = arr.get(i);
+            }
+        }
+        int[] index = new int[max+1];
+        for (int i = 0; i < index.length; i++){
+            index[i] = 0;
+        }
+        for (int i = 0; i < arr.size()  ; i++){
+            int count = 0;
+            if (index[arr.get(i)] == 0){
+                count++;
+                index[arr.get(i)] = count;
+            }else {
+                index[arr.get(i)] += 1;
+            }
+        }
+        for (int i = 0; i < index.length-1; i++){
+            index[i+1] += index[i];
+        }
+        int[] place = new int[arr.size()+1];
+        for (int i = 0; i < arr.size(); i++){
+            place[index[arr.get(i)] - 1 ] = arr.get(i);
+            index[arr.get(i)]  -= 1;
+        }
+        for (int i = 0; i < place.length -1; i++) {
+            System.out.println(place[i]);
+        }
     }
 }

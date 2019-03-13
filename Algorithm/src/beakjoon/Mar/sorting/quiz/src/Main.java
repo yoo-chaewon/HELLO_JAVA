@@ -153,18 +153,16 @@ public class Main {
                 map.put(arr.get(i), count);
             }
         }
-        int count22 = map.get(arr.get(0)).intValue();
+        int max_value = map.get(arr.get(0)).intValue();
         for (int i = 0; i < map.size(); i++){
-            if (map.get(arr.get(i).intValue()) > count22){
-                count22 = map.get(arr.get(i).intValue());
+            if (map.get(arr.get(i).intValue()) > max_value){
+                max_value = map.get(arr.get(i).intValue());
             }
         }
-        //System.out.println(map);
-        //System.out.println("최대값"+ count22);
 
         ArrayList<Integer> min_arr = new ArrayList<Integer>();
         for (Map.Entry<Integer, Integer> i: map.entrySet()){
-            if (i.getValue() == count22) {
+            if (i.getValue() == max_value) {
                 min_arr.add(i.getKey());
             }
         }
