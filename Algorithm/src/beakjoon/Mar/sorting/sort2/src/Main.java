@@ -11,8 +11,8 @@ public class Main {
         }
 
         Main obj = new Main();
-        //obj.MergeSort(arr, temp, 0, size-1);
-        obj.CountSort();
+        obj.MergeSort(arr, temp, 0, size-1);
+        //obj.CountSort();
 
         for (int i = 0; i < size; i++){
             System.out.println(arr[i]);
