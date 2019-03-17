@@ -1,3 +1,4 @@
+import java.awt.print.Book;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,13 +8,15 @@ public class Main {
 
     public static void main(String[] args) {
         Main obj = new Main();
-        obj.pillMain();
+        //obj.pillMain();
         /*
         try {
             obj.Zmain();
         }catch (IOException e){
             e.printStackTrace();
         }*/
+        //obj.BookMain();
+        obj.HanoiMain();
     }
 
     //4811
@@ -37,7 +40,6 @@ public class Main {
             System.out.println(r);
         }
     }
-
     public long pill(long[][] pill, int w, int h) {
         if ((w == 1 && h == 0) || (w == 0 && h == 1)) {
             return 1;
@@ -61,14 +63,34 @@ public class Main {
         int row = Integer.parseInt(input[1]);
         int col = Integer.parseInt(input[2]);
 
-        Z(n, row, col);
+        Z((int)Math.pow(2,n), row, col);
     }
     public void Z(int n, int row, int col){
-        int result;
-        //Z();
 
+    }
 
-        //System.out.println(result);
+    //1914
+    public void HanoiMain(){
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        int num = 0;
+        try {
+            num = Integer.parseInt(bufferedReader.readLine());
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        System.out.println((int)Math.pow(2,num)-1);
+        Hanoi(num, 1, 2, 3);
+    }
+    static int count = 0;
+    public void Hanoi(int num, int start, int mid, int end){
+
+        if (num == 1){
+            System.out.println(start + " " + end);
+        }else {
+            Hanoi(num-1, start, end, mid);
+            System.out.println(start + " " + end);
+            Hanoi(num-1, mid, start, end);
+        }
     }
 }
 
