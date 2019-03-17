@@ -143,14 +143,12 @@ public class Main {
 
         //최빈값
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-        int count;
         for (int i = 0; i < size; i++){
             if (map.containsKey(arr.get(i))) {//키가 있으면
                 map.put(arr.get(i), map.get(arr.get(i)).intValue() + 1);
             }
             else {//키가 없으면
-                count = 1;
-                map.put(arr.get(i), count);
+                map.put(arr.get(i), 1);
             }
         }
         int max_value = map.get(arr.get(0)).intValue();

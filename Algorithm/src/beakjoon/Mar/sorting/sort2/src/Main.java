@@ -125,26 +125,25 @@ public class Main {
         }
     }
 
-    public void QuickSort(int[] arr, int start, int end) {
+    public void QuickSort(int[] arr, int start, int end){
         int left_cur = start;
-        int right_cur = end;
+        int righit_cur = end;
         int mid = (start+end)/2;
         int pivot = arr[mid];
 
         do{
             while (arr[left_cur] < pivot) left_cur++;
-            while (arr[right_cur] > pivot) right_cur--;
-            if (left_cur <= right_cur){
+            while (arr[righit_cur] > pivot) righit_cur--;
+            if (left_cur <= righit_cur){
                 int temp = arr[left_cur];
-                arr[left_cur] = arr[right_cur];
-                arr[right_cur] = temp;
+                arr[left_cur] = arr[righit_cur];
+                arr[righit_cur] = temp;
                 left_cur++;
-                right_cur--;
+                righit_cur--;
             }
-        }while (left_cur <= right_cur);
+        }while (left_cur <= righit_cur);
 
-        if (start < right_cur) QuickSort(arr, start, right_cur);
-        if (end > left_cur) QuickSort(arr, left_cur, end);
-
+        if (start <= righit_cur) QuickSort(arr, start, righit_cur);
+        if (left_cur <= end) QuickSort(arr, left_cur, end);
     }
 }
