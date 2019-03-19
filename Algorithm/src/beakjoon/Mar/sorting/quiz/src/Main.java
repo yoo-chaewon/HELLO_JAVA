@@ -151,10 +151,10 @@ public class Main {
                 map.put(arr.get(i), 1);
             }
         }
-        int max_value = map.get(arr.get(0)).intValue();
-        for (int i = 0; i < map.size(); i++){
-            if (map.get(arr.get(i).intValue()) > max_value){
-                max_value = map.get(arr.get(i).intValue());
+        int max_value = map.get(arr.get(0)); //arr.get(0)번의 count된 값
+        for (int i = 0; i < arr.size(); i++) {
+            if (map.get(arr.get(i)) > max_value){
+                max_value = map.get(arr.get(i));
             }
         }
 
