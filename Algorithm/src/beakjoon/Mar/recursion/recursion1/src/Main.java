@@ -1,7 +1,5 @@
 import java.awt.print.Book;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -10,15 +8,20 @@ public class Main {
     public static void main(String[] args) {
         Main obj = new Main();
         //obj.pillMain();
-        /*
+
         try {
             obj.Zmain();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        //obj.BookMain();
+        //obj.HanoiMain();
+        /*
+        try {
+            obj.BookMain();
         }catch (IOException e){
             e.printStackTrace();
         }*/
-        //obj.BookMain();
-        //obj.HanoiMain();
-        obj.BookMain();
     }
 
     //4811
@@ -58,19 +61,33 @@ public class Main {
         return pill[w][h];
     }
 
+    static int n, r, c;
+    static int result = 0;
+
     //1074
     public void Zmain() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String[] input = bufferedReader.readLine().split(" ");
-        int n = Integer.parseInt(input[0]);
-        int row = Integer.parseInt(input[1]);
-        int col = Integer.parseInt(input[2]);
+        n = Integer.parseInt(input[0]);
+        r = Integer.parseInt(input[1]);
+        c = Integer.parseInt(input[2]);
 
-        Z((int) Math.pow(2, n), row, col);
+        Z((int) Math.pow(2, n), 0, 0);
     }
+    public void Z(int len, int row, int col) {
+        if (r == row && c == col){
+            System.out.println(result);
+            return;
+        }
+        if (len == 1){
+            result++;
+            return;
+        }
 
-    public void Z(int n, int row, int col) {
-
+        Z(len/2, row, col);
+        Z(len/2, row, col+len/2);
+        Z(len/2, row+len/2, col);
+        Z(len/2, row+len/2, col+len/2);
     }
 
     //1914
@@ -98,15 +115,21 @@ public class Main {
     }
 
     //1019
-    public void BookMain() {
+    public void BookMain() throws IOException {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
 
         int[] arr = new int[10];
+/*
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        for (int i : Book(N, arr)) {
+            bf.append((char)i);
+        }
+        bf.flush();*/
         for (int i : Book(N, arr)) {
             System.out.print(i);
         }
-
     }
 
     public int[] Book(int N, int[] arr) {
@@ -118,11 +141,11 @@ public class Main {
             Book(N - 1, arr);
             return arr;
         } else {
-            if (N % 10 == 0){
+            if (N % 10 == 0) {
                 arr[0] += 1;
                 Book(N / 10, arr);
                 Book(N - 1, arr);
-            }else {
+            } else {
                 Book(N / 10, arr);
                 Book(N % 10, arr);
                 Book(N - 1, arr);
