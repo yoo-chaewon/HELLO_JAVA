@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8904a3e-a428-4cb6-a16c-bc2677cfc5d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/fileclass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/out/production/fileclass/Output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/out/production/fileclass/OutputStream.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/src/Output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/src/OutputStream.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/자바 파일 입출력.md" afterDir="false" />
+    <list default="true" id="c4ea0fc7-42cd-433c-8402-959dd93bfa57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../fileclass/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/fileclass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/out/production/fileclass/Output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/out/production/fileclass/OutputStream.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/src/Output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileclass/src/OutputStream.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../자바 파일 입출력.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../recursion/recursion1/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../recursion/recursion1/.idea/description.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../recursion/recursion1/.idea/encodings.xml" afterDir="false" />
@@ -23,11 +33,12 @@
       <change afterPath="$PROJECT_DIR$/../../recursion/recursion1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../recursion/recursion1/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../recursion/recursion1/recursion1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stack/stack.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../recursion/recursion1/out/production/recursion1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../recursion/recursion1/out/production/recursion1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../recursion/recursion1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../recursion/recursion1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting.md" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sorting/quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sorting/quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sorting/quiz/out/production/quiz/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sorting/quiz/out/production/quiz/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sorting/sort2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sorting/sort2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sorting/sorting.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sorting/sorting.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="157" column="13" lean-forward="true" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,22 +73,26 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="848" />
-    <option name="width" value="1079" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="871" />
+    <option name="width" value="1055" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552485231988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552885586327" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -95,7 +110,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="quiz" />
+      <module name="test" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -114,34 +129,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d8904a3e-a428-4cb6-a16c-bc2677cfc5d5" name="Default Changelist" comment="" />
-      <created>1552396646440</created>
+      <changelist id="c4ea0fc7-42cd-433c-8402-959dd93bfa57" name="Default Changelist" comment="" />
+      <created>1552872951803</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552396646440</updated>
-      <workItem from="1552396650634" duration="13753000" />
-      <workItem from="1552482871195" duration="38000" />
-      <workItem from="1552482971211" duration="2259000" />
-      <workItem from="1552534811267" duration="2084000" />
-      <workItem from="1553012431787" duration="1711000" />
+      <updated>1552872951803</updated>
+      <workItem from="1552872956086" duration="4341000" />
+      <workItem from="1552926783658" duration="288000" />
+      <workItem from="1553012099424" duration="588000" />
     </task>
-    <task id="LOCAL-00001" summary="static 문제 오류 해결! 성공함!!!&gt;&lt;">
-      <created>1553014144987</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1553014144987</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19845000" />
+    <option name="totallyTimeSpent" value="5217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="679" y="0" width="863" height="830" extended-state="0" />
+    <frame x="697" y="0" width="844" height="831" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20642202" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23852041" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -150,13 +156,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33428982" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4117647" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3629842" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23242468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.4748924" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -175,27 +181,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="static 문제 오류 해결! 성공함!!!&gt;&lt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="static 문제 오류 해결! 성공함!!!&gt;&lt;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>153</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="157" column="13" lean-forward="true" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

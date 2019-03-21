@@ -93,11 +93,99 @@ public int[] InsertSort(int count, int[] arr){
 - 각 부분 배열을 정렬할 때도 병합 정렬을 순환적으로 호출하여 적용
 - 병합 정렬에서 실제로 정렬이 이루어지는 시점은 12개의 리스트를 merge하는 단계에서 일어남
 
-#### 힙정렬
+```java
+public void MergeSort(int[] arr, int[] temp, int start, int end) {
+    if (start < end) {
+        int mid = (start + end) / 2;
+        MergeSort(arr, temp, start, mid);
+        MergeSort(arr, temp, mid + 1, end);
+        Merge(arr, temp, start, mid, end);
+    }
+}
+
+public void Merge(int[] arr, int[] temp, int start, int mid, int end) {
+    for (int i = start; i <= end; i++){
+        temp[i] = arr[i];
+    }
+    int left = start;
+    int right = mid+1;
+    int temp_cur = start;
+    while (left <= mid && right <= end){
+        if (temp[left] <= temp[right]){
+            arr[temp_cur] = temp[left];
+            left++;
+        }else{
+            arr[temp_cur] = temp[right];
+            right++;
+        }
+        temp_cur++;
+    }
+    for (int i = 0; i <= mid-left; i++){//앞쪽배열 남아있을 경우
+        arr[temp_cur+i] = temp[left+i];
+    }
+}
+```
+
+#### 힙정렬(Heap Sort)
 
 힙 정렬은 완전 이진 트리를 기본으로 하는 힙(Heap) 자료구조를 기반으로한 정렬 방식이다. 완전 이진 트리는 삽입할 때 왼쪽부터 차례대로 추가하는 이진 트리를 말한다. 힙에는 부모 노드의 값이 자식 노드의 값보다 항상 큰 최대 힙과 그 반대인 최소 힙이 존재한다.
 
-#### 퀵정렬
+#### 퀵정렬(Quick Sort)
+
+분할 정복 알고리즘의 하나로, 평균적으로 매우 빠른 수행 속도를 자랑하는 정렬 방법이다. merge sort와 달리 퀵 정렬은 리스트를 비균등하게 분할한다. 
+
+리스트 안에 있는 한 요소를 선택한다. 이렇게 고른 원소를 피벗(pivot)이라고 한다. 피봇을 기준으로 피봇보다 작은 요소들을 모두 피봇의 왼쪽으로 옮겨지고 피봇보다 큰 요소들은 모두 피봇의 오른쪽으로 옮겨진다.(즉, 피봇을 중심으로 왼쪽은 피봇보다 작은 요소들, 오른쪽은 피봇보다 큰 요소들)
+
+피봇을 제외한 왼쪽 리스트와 오른쪽 리스트를 다시 정렬한다. 분할된 리스트에 대하여 순환 호출을 이용하여 정렬을 반복한다. 이렇게 부분 리스트에서도 다시 피벗을 정하고 피벗을 기준으로 2개의 부분 리스트로 나누는 과정을 반복한다.
+
+#### 계수 정렬(Count Sort)
+
+모든 숫자들의 개수를 센 후, 누적 합을 구하고, 다시 숫자를 넣어준다.
+
+```java
+public void CountSort(BufferedReader br, int size){
+    ArrayList<Integer> arr = new ArrayList<Integer>();
+    for (int i = 0; i <size; i++){
+        try {
+            arr.add(Integer.parseInt(br.readLine()));
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    int max = arr.get(0);
+    for (int i = 0; i <size; i++){
+        if (arr.get(i) > max){
+            max = arr.get(i);
+        }
+    }
+    int[] index = new int[max+1];
+    for (int i = 0; i < index.length; i++){
+        index[i] = 0;
+    }
+    for (int i = 0; i < arr.size()  ; i++){
+        int count = 0;
+        if (index[arr.get(i)] == 0){
+            count++;
+            index[arr.get(i)] = count;
+        }else {
+            index[arr.get(i)] += 1;
+        }
+    }
+    for (int i = 0; i < index.length-1; i++){
+        index[i+1] += index[i];
+    }
+    int[] place = new int[arr.size()+1];
+    for (int i = 0; i < arr.size(); i++){
+        place[index[arr.get(i)] - 1 ] = arr.get(i);
+        index[arr.get(i)]  -= 1;
+    }
+    for (int i = 0; i < place.length -1; i++) {
+        System.out.println(place[i]);
+    }
+}
+```
+
+#### 기수 정렬(Radix Sort)
 
 
 
