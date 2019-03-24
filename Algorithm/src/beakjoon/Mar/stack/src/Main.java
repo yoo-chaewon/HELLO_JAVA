@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Stack;
 
 public class Main {
@@ -110,10 +111,11 @@ public class Main {
     public void SequenceStack(int[] arr) {
         Stack<Integer> seq_stack = new Stack<>();
         int arr_cur = 0;
-        int i = 0;
+        ArrayList<String> result = new ArrayList<>();
+        //int i = 0;
 
-        while (arr_cur < arr.length) {
-            i += 1;
+        for (int i = 1; i < arr.length + 1; i++) {
+            //i += 1;
             seq_stack.push(i);
             System.out.println("+");
 
@@ -121,8 +123,14 @@ public class Main {
                 seq_stack.pop();
                 System.out.println("-");
                 arr_cur += 1;
+/*
+                if (arr.length <= arr_cur){
+                    break;
+                }*/
+                if(seq_stack.empty() == true){
+                    break;
+                }
             }
-
         }
     }
 }
