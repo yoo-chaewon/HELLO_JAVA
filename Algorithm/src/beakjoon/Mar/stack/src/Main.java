@@ -112,24 +112,27 @@ public class Main {
         Stack<Integer> seq_stack = new Stack<>();
         int arr_cur = 0;
         ArrayList<String> result = new ArrayList<>();
-        //int i = 0;
 
         for (int i = 1; i < arr.length + 1; i++) {
-            //i += 1;
             seq_stack.push(i);
-            System.out.println("+");
+            result.add("+");
+            //System.out.println("+");
 
             while (arr[arr_cur] == seq_stack.peek()) {
                 seq_stack.pop();
-                System.out.println("-");
+                result.add("-");
                 arr_cur += 1;
-/*
-                if (arr.length <= arr_cur){
-                    break;
-                }*/
-                if(seq_stack.empty() == true){
+
+                if (seq_stack.empty() == true) {
                     break;
                 }
+            }
+        }
+        if (seq_stack.empty() == false) {
+            System.out.println("NO");
+        } else {
+            for (String str : result) {
+                System.out.println(str);
             }
         }
     }
