@@ -2,42 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5692ad20-04f6-4d44-8d13-f10d757e0577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/fileclass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/out/production/fileclass/Output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/out/production/fileclass/OutputStream.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/src/Output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/fileclass/src/OutputStream.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/out/production/test/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../others/자바 파일 입출력.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/recursion1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/recursion1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sorting/quiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/quiz/out/production/quiz/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sorting/quiz/out/production/quiz/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/sort2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sorting/sort2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/sorting.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sorting/sorting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack/out/production/stack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/out/production/stack/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="334">
+              <caret line="139" column="17" selection-end-line="146" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,9 +46,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="865" />
-    <option name="width" value="1063" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552927075906" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sorting/quiz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,6 +106,7 @@
       <workItem from="1552573621487" duration="3994000" />
       <workItem from="1552666425381" duration="30684000" />
       <workItem from="1553012086042" duration="7912000" />
+      <workItem from="1553187005011" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="약 문제">
       <created>1552800294036</created>
@@ -178,7 +147,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42590000" />
+    <option name="totallyTimeSpent" value="43517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,7 +159,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="692" y="0" width="850" height="830" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2926491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -201,13 +170,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25394547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22812052" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46628407" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3543759" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.23529412" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.23529412" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -237,8 +206,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        <state relative-caret-position="334">
+          <caret line="139" column="17" selection-end-line="146" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

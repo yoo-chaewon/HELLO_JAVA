@@ -7,21 +7,16 @@ public class Main {
 
     public static void main(String[] args) {
         Main obj = new Main();
-        //obj.pillMain();
 
         try {
-            obj.Zmain();
+            //obj.Zmain();
+            obj.BookMain();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        //obj.pillMain();
         //obj.BookMain();
         //obj.HanoiMain();
-        /*
-        try {
-            obj.BookMain();
-        }catch (IOException e){
-            e.printStackTrace();
-        }*/
     }
 
     //4811
@@ -120,15 +115,9 @@ public class Main {
         int N = scanner.nextInt();
 
         int[] arr = new int[10];
-/*
-        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
 
         for (int i : Book(N, arr)) {
-            bf.append((char)i);
-        }
-        bf.flush();*/
-        for (int i : Book(N, arr)) {
-            System.out.print(i);
+            System.out.print(i + " ");
         }
     }
 
