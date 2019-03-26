@@ -117,8 +117,6 @@ public class Main {
         for (int i = 1; i < arr.length + 1; i++) {
             seq_stack.push(i);
             result.add("+");
-            //System.out.println("+");
-
             while (arr[arr_cur] == seq_stack.peek()) {
                 seq_stack.pop();
                 result.add("-");
@@ -139,63 +137,82 @@ public class Main {
     }
 
     //2504
-    public void SequenceCalculMain() throws IOException{
+    public void SequenceCalculMain() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String input = bufferedReader.readLine();
-
         SequenceCalcul(input);
     }
-    public void SequenceCalcul(String input){
+
+    public void SequenceCalcul(String input) {
         Stack<String> cal_stack = new Stack<String>();
         int result = 0;
-        int result1 = 0;
-        int result2 = 0;
-        int last_result = 0;
 
-        for (int i = 0; i < input.length(); i++){
-            if (cal_stack.empty() == true){
-                result1 = 0;
-                result2 = 0;
-                result = 0;
+        for (int i = 0; i < input.length(); i++) {
+            if (result == -1){
+                break;
             }
-            String get_str = String.valueOf(input.charAt(i));
 
-            if (get_str.equals("(")){
-                cal_stack.push(get_str);
-            }else if (get_str.equals(")")){
-                if (cal_stack.peek().equals("(") && cal_stack.size() > 1){
-                    cal_stack.pop();
-                    if (result1 == 0){
-                        result1 = 2;
-                    }else {
-                        result1 *= 2;
+            String str = String.valueOf(input.charAt(i));
+            switch (str) {
+                case "(":
+                    cal_stack.push(str);
+                    break;
+                case "[":
+                    cal_stack.push(str);
+                    break;
+                case ")":
+                    if (cal_stack.empty()){
+                        break;
                     }
-                }else if(cal_stack.peek().equals("(") && cal_stack.size() == 1){
+                    if (cal_stack.peek().equals("(")) {
                         cal_stack.pop();
-                        result = result1 + result2;
-
-                }
-            }else if (get_str.equals("[")){
-                cal_stack.push(get_str);
-            }else if (get_str.equals("]")){
-                if (cal_stack.peek().equals("[") && cal_stack.size() > 1){
-                    cal_stack.pop();
-                    if (result2 == 0){
-                        result2 = 3;
-                    }else {
-                        result2 *= 3;
+                        cal_stack.push("2");
+                    } else {
+                        result = stackInnerFun(cal_stack, "[", "(", 2);
                     }
-                }else if(cal_stack.peek().equals("[") && cal_stack.size() == 1){
-                    cal_stack.pop();
-                    result = result1 + result2;
-                }
-            }
-            if (result != 0) {
-
-                    last_result += result;
-
+                    break;
+                case "]":
+                    if (cal_stack.empty()){
+                        break;
+                    }
+                    if (cal_stack.peek().equals("[")) {
+                        cal_stack.pop();
+                        cal_stack.push("3");
+                    } else {
+                        result = stackInnerFun(cal_stack, "(", "[", 3);
+                    }
+                    break;
             }
         }
-        System.out.println(last_result);
+        int sum = 0;
+        while (!cal_stack.empty()) {
+            if (cal_stack.peek().equals("(") || cal_stack.peek().equals(")") || cal_stack.peek().equals("[") || cal_stack.peek().equals("]")) {
+                sum = 0;
+                break;
+            } else {
+                sum += Integer.parseInt(cal_stack.peek());
+                cal_stack.pop();
+            }
+        }
+        System.out.print(sum);
+    }
+
+    public int stackInnerFun(Stack<String> in_stack, String input1, String input2, int value) {
+        int result = 0;
+        while (!in_stack.empty()) {
+            String top = in_stack.peek();
+            if (top.equals(input1)) {
+                return -1;
+            } else if (top.equals(input2)) {//만나면 끝나야 하니까 break
+                in_stack.pop();
+                result *= value;
+                in_stack.push(String.valueOf(result));
+                break;
+            } else {//숫자인 경우
+                result += Integer.parseInt(top);
+                in_stack.pop();
+            }
+        }
+        return result;
     }
 }
