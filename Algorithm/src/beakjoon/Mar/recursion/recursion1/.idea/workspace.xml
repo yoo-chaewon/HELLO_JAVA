@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5692ad20-04f6-4d44-8d13-f10d757e0577" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../stack/out/production/stack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/out/production/stack/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../stack/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/src/Main.java" afterDir="false" />
@@ -160,6 +159,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2926491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

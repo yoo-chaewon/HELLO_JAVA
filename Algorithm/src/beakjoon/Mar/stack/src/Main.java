@@ -10,7 +10,8 @@ public class Main {
         try {
             //obj.StackMain();
             //obj.VPSMain();
-            obj.SequenceStackMain();
+            //obj.SequenceStackMain();
+            obj.SequenceCalculMain();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -135,5 +136,66 @@ public class Main {
                 System.out.println(str);
             }
         }
+    }
+
+    //2504
+    public void SequenceCalculMain() throws IOException{
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        String input = bufferedReader.readLine();
+
+        SequenceCalcul(input);
+    }
+    public void SequenceCalcul(String input){
+        Stack<String> cal_stack = new Stack<String>();
+        int result = 0;
+        int result1 = 0;
+        int result2 = 0;
+        int last_result = 0;
+
+        for (int i = 0; i < input.length(); i++){
+            if (cal_stack.empty() == true){
+                result1 = 0;
+                result2 = 0;
+                result = 0;
+            }
+            String get_str = String.valueOf(input.charAt(i));
+
+            if (get_str.equals("(")){
+                cal_stack.push(get_str);
+            }else if (get_str.equals(")")){
+                if (cal_stack.peek().equals("(") && cal_stack.size() > 1){
+                    cal_stack.pop();
+                    if (result1 == 0){
+                        result1 = 2;
+                    }else {
+                        result1 *= 2;
+                    }
+                }else if(cal_stack.peek().equals("(") && cal_stack.size() == 1){
+                        cal_stack.pop();
+                        result = result1 + result2;
+
+                }
+            }else if (get_str.equals("[")){
+                cal_stack.push(get_str);
+            }else if (get_str.equals("]")){
+                if (cal_stack.peek().equals("[") && cal_stack.size() > 1){
+                    cal_stack.pop();
+                    if (result2 == 0){
+                        result2 = 3;
+                    }else {
+                        result2 *= 3;
+                    }
+                }else if(cal_stack.peek().equals("[") && cal_stack.size() == 1){
+                    cal_stack.pop();
+                    result = result1 + result2;
+                }
+            }
+            if (result != 0) {
+
+                    last_result += result;
+
+            }
+        }
+        System.out.println(last_result);
     }
 }
