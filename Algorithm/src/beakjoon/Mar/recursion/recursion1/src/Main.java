@@ -1,5 +1,6 @@
 import java.awt.print.Book;
 import java.io.*;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -7,16 +8,16 @@ public class Main {
 
     public static void main(String[] args) {
         Main obj = new Main();
-
+/*
         try {
             //obj.Zmain();
             obj.BookMain();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
         //obj.pillMain();
         //obj.BookMain();
-        //obj.HanoiMain();
+        obj.HanoiMain();
     }
 
     //4811
@@ -94,8 +95,13 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println((int) Math.pow(2, num) - 1);
-        Hanoi(num, 1, 2, 3);
+        BigInteger bi = new BigInteger("2");
+        //2의 n제곱 -1
+        BigInteger c = bi.pow(num).subtract(BigInteger.ONE);
+        System.out.println(c);
+        if(num <= 20) {
+            Hanoi(num, 1, 2, 3);
+        }
     }
 
     public void Hanoi(int num, int start, int mid, int end) {

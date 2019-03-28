@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5692ad20-04f6-4d44-8d13-f10d757e0577" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recursion2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../recursion2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recursion2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../recursion2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../stack/out/production/stack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/out/production/stack/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../stack/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="139" column="17" selection-end-line="146" />
+            <state relative-caret-position="-420">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,23 +47,42 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="881" />
+    <option name="width" value="1048" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="recursion1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recursion1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recursion1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recursion1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552927075906" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553677957683" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../recursion2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,6 +127,7 @@
       <workItem from="1552666425381" duration="30684000" />
       <workItem from="1553012086042" duration="7912000" />
       <workItem from="1553187005011" duration="927000" />
+      <workItem from="1553674668569" duration="3123000" />
     </task>
     <task id="LOCAL-00001" summary="약 문제">
       <created>1552800294036</created>
@@ -146,7 +168,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43517000" />
+    <option name="totallyTimeSpent" value="46640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -158,10 +180,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2926491" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29261744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -170,7 +191,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22812052" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25957447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46628407" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,8 +227,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="139" column="17" selection-end-line="146" />
+        <state relative-caret-position="-420">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

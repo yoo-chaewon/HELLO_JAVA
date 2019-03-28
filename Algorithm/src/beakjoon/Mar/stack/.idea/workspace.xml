@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70fa2a7d-c9e3-4a54-ab54-6cdc5336652e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../recursion/recursion1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../recursion/recursion1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stack/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="177" column="45" selection-start-line="177" selection-start-column="45" selection-end-line="177" selection-end-column="45" />
+            <state relative-caret-position="231">
+              <caret line="142" column="14" lean-forward="true" selection-end-line="218" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4535#4543#0" expanded="true" />
@@ -59,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553608630600" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553616051708" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../recursion/recursion1" />
   </component>
   <component name="RunDashboard">
@@ -101,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553180043263</updated>
-      <workItem from="1553180051066" duration="38016000" />
+      <workItem from="1553180051066" duration="38167000" />
     </task>
     <task id="LOCAL-00001" summary="9012">
       <created>1553439234618</created>
@@ -138,14 +137,22 @@
       <option name="project" value="LOCAL" />
       <updated>1553599356144</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2504 success!!">
+      <created>1553608703656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553608703656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38016000" />
+    <option name="totallyTimeSpent" value="38167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="648" y="0" width="894" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -187,19 +194,8 @@
     <MESSAGE value="1873&#10;2단계 성공" />
     <MESSAGE value="1873 clear" />
     <MESSAGE value="2504 try1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2504 try1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>142</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="2504 success!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="2504 success!!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Stack.java">
@@ -211,8 +207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="177" column="45" selection-start-line="177" selection-start-column="45" selection-end-line="177" selection-end-column="45" />
+        <state relative-caret-position="231">
+          <caret line="142" column="14" lean-forward="true" selection-end-line="218" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4535#4543#0" expanded="true" />

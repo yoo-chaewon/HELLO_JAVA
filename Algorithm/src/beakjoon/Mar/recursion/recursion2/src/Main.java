@@ -1,63 +1,70 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
-
     public static void main(String[] args) {
         Main obj = new Main();
-        //obj.gameMain();
+        try {
+            obj.gameMain();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
     //1103
-    static char[][]map;
-    static int[][] count;
-    static int N, M;
-    public void gameMain(){
-        Scanner sc = new Scanner(System.in);
-        N = sc.nextInt();
-        M = sc.nextInt();
-        map = new char[N][M];
-        String[] str = new String[N];
-        for (int i = 0 ; i < N; i++){
-            str[i] = sc.next();
-        }
-        for (int i = 0; i < N; i++){
-            for (int j = 0; j < M; j++){
-                map[i][j] = str[i].charAt(j);
-            }
-        }
-        count = new int[N][M];
-        game(0,0);
-        int result = 0;
-        int temp = 0;
-        for (int i = 0; i < N; i++){
-            for (int j = 0; j < M; j++){
-                if (count[i][j] > result){
-                    result = count[i][j];
+    Integer[][] map;
+    int N, M;
+
+    public void gameMain() throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        String input[] = bufferedReader.readLine().split(" ");
+        N = Integer.parseInt(input[0]);
+        M = Integer.parseInt(input[1]);
+
+        map = new Integer[N][M];
+        String[] str = new String[M];
+        for (int i = 0; i < N; i++) {
+            str[i] = bufferedReader.readLine();
+            for (int j = 0; j < M; j++) {
+                if (str[i].charAt(j) == 'H') {
+                    map[i][j] = 0;
+                } else {
+                    map[i][j] = str[i].charAt(j) - '0';
                 }
             }
         }
-        System.out.println(result);
-    }
-    static int result = 0;
-    public void game(int x, int y){
-        if ((x < 0 || M-1 < x || y < 0 || N-1 < y)){//박스 밖
-            return;
-        }else {//그 자리에서 재귀를 불러야 하는 것.
-            int number = (int)map[y][x]-48;//char을 int로
-            result++;
-            count[y][x] = result;
-            game(y+number, x);
-            game(y, x+number);
-            game(y-number, x);
-            game(y, x-number);
-
+        int[][] visited = new int[N][M];
+        game(0, 0, 1, visited);
+        Collections.sort(max);
+        if (max.get(0) == -1) {
+            System.out.println(-1);
+        } else {
+            System.out.println(max.get(max.size() - 1));
         }
     }
 
-    //1039
-    public void ExchangeMain(){
-
-    }
-    public void Exchange(){
-
+    ArrayList<Integer> max = new ArrayList<>();
+    public void game(int a, int b, int count, int[][] visited) {
+        if ((a < 0 || N - 1 < a || b < 0 || M - 1 < b)) {//박스 밖
+            count--;
+            max.add(count);
+        } else if (visited[a][b] == 1) {
+            max.add(-1);
+        } else {
+            int num = map[a][b];
+            if (num == 0) {
+                count--;
+            } else {
+                count++;
+                visited[a][b] = 1;
+                game(a + num, b, count, visited);
+                game(a - num, b, count, visited);
+                game(a, b + num, count, visited);
+                game(a, b - num, count, visited);
+            }
+        }
     }
 }
