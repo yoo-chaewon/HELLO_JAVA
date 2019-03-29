@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a368503-01bf-4f93-9cd9-8be777f4bba3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../queue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../queue/out/production/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../queue/out/production/queue/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../queue/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../queue/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/recursion2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/recursion2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="200">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="810" />
     <option name="width" value="1119" />
     <option name="height" value="1039" />
@@ -54,7 +57,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553791878487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553866399273" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../stack" />
   </component>
   <component name="RunDashboard">
@@ -97,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553097290832</updated>
       <workItem from="1553097295349" duration="9235000" />
-      <workItem from="1553677078652" duration="10965000" />
+      <workItem from="1553677078652" duration="14681000" />
     </task>
     <task id="LOCAL-00001" summary="Problem 1103">
       <created>1553782944955</created>
@@ -106,14 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553782944955</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Problem 1103">
+      <created>1553791975382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553791975382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20200000" />
+    <option name="totallyTimeSpent" value="23916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24936709" />
@@ -131,7 +141,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.6326241" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.20141844" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -157,8 +167,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="200">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

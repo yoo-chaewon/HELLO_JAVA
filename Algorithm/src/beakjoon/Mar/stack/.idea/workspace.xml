@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70fa2a7d-c9e3-4a54-ab54-6cdc5336652e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../queue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queue/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../queue/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recursion/recursion2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../recursion/recursion2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recursion/recursion2/out/production/recursion2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../recursion/recursion2/out/production/recursion2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+            <state relative-caret-position="373">
+              <caret line="218" column="6" selection-start-line="218" selection-start-column="6" selection-end-line="218" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553180043263</updated>
       <workItem from="1553180051066" duration="38167000" />
-      <workItem from="1553783595924" duration="1331000" />
+      <workItem from="1553783595924" duration="3816000" />
     </task>
     <task id="LOCAL-00001" summary="9012">
       <created>1553439234618</created>
@@ -145,7 +146,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39498000" />
+    <option name="totallyTimeSpent" value="41983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
@@ -204,8 +205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+        <state relative-caret-position="373">
+          <caret line="218" column="6" selection-start-line="218" selection-start-column="6" selection-end-line="218" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
