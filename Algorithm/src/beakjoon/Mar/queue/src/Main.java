@@ -178,7 +178,6 @@ public class Main {
         N = Integer.parseInt(f_line[0]);//정점의 개수
         M = Integer.parseInt(f_line[1]);//간선의 개수
         int V = Integer.parseInt(f_line[2]);//시작할 정점의 번호
-
         for (int i = 1; i <= M; i++){
             String[] node = bufferedReader.readLine().split(" ");
             int A = Integer.parseInt(node[0]);
@@ -189,7 +188,23 @@ public class Main {
         for (int j = 1; j <= N; j++){
             visited[j] = false;
         }
+        DFS(V);
+        for (int j = 1; j <= N; j++){
+            visited[j] = false;
+        }
+        System.out.println("");
         BFS(V);
+    }
+    public void DFS(int V){
+        visited[V] = true;
+        System.out.print(V + " ");
+
+        for (int i = 1; i <= N; i++) {
+            if ((map[V][i] == 1) && (visited[i] == false)){
+                visited[i] = true;
+                DFS(i);
+            }
+        }
     }
     public void BFS(int V){
         LinkedList<Integer> queue = new LinkedList<>();
