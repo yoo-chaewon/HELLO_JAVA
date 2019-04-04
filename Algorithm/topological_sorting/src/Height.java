@@ -3,18 +3,16 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedList;
-
-public class Main {
+//2252
+public class Height {
     public static void main(String[] args) {
-        Main obj = new Main();
         try {
-            obj.HeightMain();
+            HeightMain();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
-    public void HeightMain() throws IOException {
+    public static void HeightMain() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String[] input = bufferedReader.readLine().split(" ");
         int N = Integer.parseInt(input[0]);//수
