@@ -2,152 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa0288a6-f5da-4b15-a6b3-b4a51c03e9bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortInSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordSort2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/out/production/topological_sorting/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/April/topological_sorting/topological_sorting.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/Apartment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/ArraylistEx.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/out/production/ArraylistEx/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/out/production/ArraylistEx/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/out/production/ArraylistEx/Singer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/out/production/ArraylistEx/Singer2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/src/Singer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/ArraylistEx/src/Singer2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/fileclass.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/out/production/fileclass/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/out/production/fileclass/Output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/out/production/fileclass/OutputStream.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/src/Output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/fileclass/src/OutputStream.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/out/production/test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/others/자바 파일 입출력.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/out/production/queue/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/queue.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/queue/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/out/production/recursion1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/recursion1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion1/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/out/production/recursion2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/recursion2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/recursion/recursion2/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/out/production/quiz/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/out/production/quiz/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/quiz.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/quiz/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/out/production/src/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort1/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/0312.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/out/production/0312/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sort2/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/sorting/sorting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/out/production/stack/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/beakjoon/Mar/stack/stack.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/others/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/CompareTo Method.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/JAVA를 자바라^__^.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/Mar/Java Collections Framework.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/Mar/Java Comparable &amp; Comparator.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/Mar/Stack &amp; Queue.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/Mar/자료구조알고리즘.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/String을 자바라.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/int &amp; Integer를 자바라.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/자바 파일 입출력.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/Statistics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#196#205#0" expanded="true" />
@@ -248,8 +103,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554388273729" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sorting/sort2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554388276247" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stack" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -291,12 +146,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554386918593</updated>
-      <workItem from="1554386922212" duration="1347000" />
+      <workItem from="1554386922212" duration="1489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1347000" />
+    <option name="totallyTimeSpent" value="1489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="535" y="0" width="1007" height="830" extended-state="0" />
@@ -316,7 +171,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44476327" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44476327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +284,7 @@
     <entry file="file://$PROJECT_DIR$/src/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#196#205#0" expanded="true" />
