@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0357031-1f0a-45bc-a168-f0139467b82c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Z.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recursion/recursion1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../recursion/recursion1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recursion/recursion1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../recursion/recursion1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recursion/recursion1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../recursion/recursion1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/out/production/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/test/test.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +62,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Book.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
               <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/Z.java" />
         <option value="$PROJECT_DIR$/src/Hanoi.java" />
         <option value="$PROJECT_DIR$/src/Book.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
       </list>
     </option>
   </component>
@@ -128,8 +143,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554390003002" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../recursion/recursion2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554390015441" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../topological_sorting" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,16 +180,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554389424495</updated>
-      <workItem from="1554389427356" duration="475000" />
+      <workItem from="1554389427356" duration="761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475000" />
+    <option name="totallyTimeSpent" value="761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="640" y="0" width="902" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -255,6 +269,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
