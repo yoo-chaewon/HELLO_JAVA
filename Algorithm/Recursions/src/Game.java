@@ -4,21 +4,18 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Main {
-    public static void main(String[] args) {
-        Main obj = new Main();
-        try {
-            obj.gameMain();
-        } catch (IOException e) {
+public class Game {
+    public static void main(String[] args){
+        try{
+            gameMain();
+        }catch (IOException e){
             e.printStackTrace();
         }
     }
-
     //1103
-    Integer[][] map;
-    int N, M;
-
-    public void gameMain() throws IOException {
+    static Integer[][] map;
+    static int N, M;
+    public static void gameMain() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String input[] = bufferedReader.readLine().split(" ");
         N = Integer.parseInt(input[0]);
@@ -46,8 +43,8 @@ public class Main {
         }
     }
 
-    ArrayList<Integer> max = new ArrayList<>();
-    public void game(int a, int b, int count, int[][] visited) {
+    static ArrayList<Integer> max = new ArrayList<>();
+    public static void game(int a, int b, int count, int[][] visited) {
         if ((a < 0 || N - 1 < a || b < 0 || M - 1 < b)) {//박스 밖
             count--;
             max.add(count);
