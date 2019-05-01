@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae4486c-e4d1-4f37-bfb6-30c38113cd2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Brute_Force/src/Q_2309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Brute_Force/src/Q_1065.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Brute_Force/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Brute_Force/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/topological_sorting/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Height.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderOfHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderOfHeight.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="575" />
     <option name="width" value="1350" />
     <option name="height" value="1040" />
@@ -120,15 +113,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556687092890</updated>
-      <workItem from="1556687100521" duration="2622000" />
+      <workItem from="1556687100521" duration="2871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2622000" />
+    <option name="totallyTimeSpent" value="2871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />

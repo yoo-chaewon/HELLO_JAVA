@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a2d376-b6cb-40e6-b023-5b913402eb28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Q_2309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q_1065.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topological_sorting/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../topological_sorting/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topological_sorting/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../topological_sorting/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../topological_sorting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../topological_sorting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topological_sorting/out/production/topological_sorting/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topological_sorting/src/Height.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topological_sorting/src/OrderOfHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../topological_sorting/src/OrderOfHeight.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,23 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Q_2231.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Q_2309.java">
+        <entry file="file://$PROJECT_DIR$/src/Q_1065.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="243">
+              <caret line="21" column="31" lean-forward="true" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Q_2231.java" />
         <option value="$PROJECT_DIR$/src/Q_2309.java" />
+        <option value="$PROJECT_DIR$/src/Q_1065.java" />
       </list>
     </option>
   </component>
@@ -100,7 +82,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556702040379" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556706324336" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,7 +96,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q_2309">
+  <component name="RunManager" selected="Application.Q_1065">
+    <configuration name="Q_1065" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Q_1065" />
+      <module name="Brute_Force" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q_2231" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,6 +125,7 @@
     <list>
       <item itemvalue="Application.Q_2231" />
       <item itemvalue="Application.Q_2309" />
+      <item itemvalue="Application.Q_1065" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -148,12 +138,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556697301017</updated>
-      <workItem from="1556697310107" duration="4388000" />
+      <workItem from="1556697310107" duration="8844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4388000" />
+    <option name="totallyTimeSpent" value="8844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -174,8 +164,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30070922" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25248227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25815603" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -192,6 +182,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q_1065.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -213,8 +215,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Q_2309.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="140">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q_1065.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="31" lean-forward="true" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
