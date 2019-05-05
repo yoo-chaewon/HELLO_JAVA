@@ -11,7 +11,7 @@ public class Q_1038 {
         if (input > 1022) System.out.println("-1");
         else if (input == 1022) System.out.println("9876543210");
         else {
-            for (long i = 0; ; i++) {
+            for (long i = 0; ; ) {
                 long temp = i;
                 int len = (int) Math.log10(i) + 1;
                 if (count == input) {
@@ -22,6 +22,7 @@ public class Q_1038 {
                 for (int j = 0; j < len - 1; j++) {
                     if ((temp % 10 - temp / 10 % 10) >= 0) {
                         count--;
+
                         break;
                     }
                     temp = temp / 10;
