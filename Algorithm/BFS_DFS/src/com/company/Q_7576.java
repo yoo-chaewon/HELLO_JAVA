@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
-
+//BFS
 public class Q_7576 {
     static int[] dx = {-1,1,0,0};
     static int[] dy = {0,0,1,-1};
