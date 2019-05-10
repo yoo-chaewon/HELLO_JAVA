@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa5cfcda-310d-48a9-8cc2-87747f2b3d31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Q_2178_BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Q_2178_DFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,14 +27,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Q_2178_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state relative-caret-position="155">
+              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#870#881#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Q_2178_DFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="33" column="37" lean-forward="true" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,13 +73,14 @@
         <option value="$PROJECT_DIR$/src/com/company/Q_11724.java" />
         <option value="$PROJECT_DIR$/src/com/company/Q_7569.java" />
         <option value="$PROJECT_DIR$/src/com/company/Q_2178_BFS.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Q_2178_DFS.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -104,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557488215310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557492681714" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -119,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q_2178_BFS">
+  <component name="RunManager" selected="Application.Q_2178_DFS">
     <configuration name="Q_10451" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Q_10451" />
       <module name="BFS" />
@@ -136,6 +149,13 @@
     </configuration>
     <configuration name="Q_2178_BFS" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Q_2178_BFS" />
+      <module name="BFS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_2178_DFS" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.company.Q_2178_DFS" />
       <module name="BFS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,6 +179,7 @@
       <item itemvalue="Application.Q_11724" />
       <item itemvalue="Application.Q_7569" />
       <item itemvalue="Application.Q_2178_BFS" />
+      <item itemvalue="Application.Q_2178_DFS" />
       <item itemvalue="Application.Q_7576" />
       <item itemvalue="Application.Q_10451" />
     </list>
@@ -176,7 +197,7 @@
       <workItem from="1557279709450" duration="5632000" />
       <workItem from="1557304566401" duration="4820000" />
       <workItem from="1557309550542" duration="4665000" />
-      <workItem from="1557480770712" duration="7061000" />
+      <workItem from="1557480770712" duration="11543000" />
     </task>
     <task id="LOCAL-00001" summary="solve Q_7576">
       <created>1557290747024</created>
@@ -199,17 +220,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557485000214</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="solve Q_2178_BFS">
+      <created>1557488277129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557488277129</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22178000" />
+    <option name="totallyTimeSpent" value="26660000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21140939" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4368932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -218,13 +246,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13617021" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24246772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37730497" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.25531915" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.25824964" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -247,7 +275,8 @@
     <MESSAGE value="solve Q_7576" />
     <MESSAGE value="solve Q_10451" />
     <MESSAGE value="solve Q_7569" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve Q_7569" />
+    <MESSAGE value="solve Q_2178_BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve Q_2178_BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,11 +338,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Q_2178_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        <state relative-caret-position="155">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#870#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Q_2178_DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="33" column="37" lean-forward="true" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
