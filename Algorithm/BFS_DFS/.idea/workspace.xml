@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa5cfcda-310d-48a9-8cc2-87747f2b3d31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Q_1697.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Q_1697.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="282">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,7 +221,7 @@
       <workItem from="1557304566401" duration="4820000" />
       <workItem from="1557309550542" duration="4665000" />
       <workItem from="1557480770712" duration="28790000" />
-      <workItem from="1557715429679" duration="1948000" />
+      <workItem from="1557715429679" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="solve Q_7576">
       <created>1557290747024</created>
@@ -280,15 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557651428034</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="solve Q_1697">
+      <created>1557717673098</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557717673098</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45855000" />
+    <option name="totallyTimeSpent" value="46170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -299,13 +304,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13900709" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29078013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38020086" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.35886526" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.35886526" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -333,7 +338,8 @@
     <MESSAGE value="solve Q_2606" />
     <MESSAGE value="solve Q_2667" />
     <MESSAGE value="solve Q_1325_BFS - timeover" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve Q_1325_BFS - timeover" />
+    <MESSAGE value="solve Q_1697" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve Q_1697" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Q_1697.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="282">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
