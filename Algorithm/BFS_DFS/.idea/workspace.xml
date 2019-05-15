@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa5cfcda-310d-48a9-8cc2-87747f2b3d31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BFS/src/com/company/Q_2468.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DFS/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DFS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DFS/src/com/company/Q_2583.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Q_1325_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
+            <state relative-caret-position="362">
               <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -25,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Q_1697.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="700">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,9 +73,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
+    <option name="x" value="711" />
     <option name="width" value="1215" />
-    <option name="height" value="1039" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -79,8 +83,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +112,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +226,7 @@
       <workItem from="1557309550542" duration="4665000" />
       <workItem from="1557480770712" duration="28790000" />
       <workItem from="1557715429679" duration="2263000" />
+      <workItem from="1557910133870" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="solve Q_7576">
       <created>1557290747024</created>
@@ -290,12 +295,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46170000" />
+    <option name="totallyTimeSpent" value="47469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,20 +460,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Q_1325_DFS.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Q_1325_BFS.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Q_1697.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="700">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Q_1697.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Q_1325_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="362">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
