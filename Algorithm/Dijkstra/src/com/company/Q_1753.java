@@ -2,6 +2,8 @@ package com.company;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Q_1753 {
     public static void main(String[] args) throws Exception {
@@ -19,9 +21,7 @@ public class Q_1753 {
         boolean[] visited = new boolean[V + 1];
         int[] distance = new int[V + 1];
 
-        for (int i = 1; i < V + 1; i++) {
-            distance[i] = 99;
-        }
+        Arrays.fill(distance,99);
         visited[start] = true;
         distance[start] = 0;
 
