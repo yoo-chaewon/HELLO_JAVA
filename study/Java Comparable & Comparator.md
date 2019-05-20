@@ -172,3 +172,54 @@ Collections.sort(singers, new Comparator<Singer2>() {
 
 singer2클래스에 Comparable을 implements하지 않은 상태로 메인 함수 내에서 Collectiions.sort()를 만들었음.
 
+
+
+
+
+### Priority Queue
+
+우선순위 큐는 먼저 들어간 데이터가 먼저 나오는 일반적인 큐와 다르게 데이터를 꺼낼 때 우선순위가 가장 높은 데이터가 가장 먼저 나온다.
+
+```java
+class Student{
+    String name;
+    int age;
+    
+    public Student(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+}
+```
+
+--> 이 클래스의 객체를 priority Queue에 넣으려면,
+
+'name'기준인지, 'age'기준인지 명시해줘야함.
+
+
+
+따라서 **Comparable**구현
+
+##### Comparable 구현
+
+student 클래스에 Comparable의 compareTo()를 오버라이딩 하여 구현한다.
+
+```java
+class Student implements Comparable<Student>{
+    String name;
+    int age;
+    
+    public Student(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+    @Override
+    public int compareTo(Student target){
+        return this.age <= target.age ? 1:-1;
+    }
+}
+```
+
+이는 나이가 많은 순을 구현한 것.(나이가 많을 수록 학생이 우선순위가 높다)
+
+음수인지, 양수인지에 따라 우선 순위가 결정됨.
