@@ -35,3 +35,6 @@ DP로 특정 범위까지 값을 구하고 다른 범위까지의 값을 구할 
 - 같은 문자가 나오면 이전에 누적했던 LCS의 길이에 +1
 - 비교한 문자가 다르면 비교한 문자가 포함되어 있는 직전 LCS값
 
+# BOJ 9251
+
+![1559296776707](C:\Users\yoo\AppData\Roaming\Typora\typora-user-images\1559296776707.png)
