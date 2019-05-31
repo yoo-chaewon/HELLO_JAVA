@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
-
+//RGB
 public class Q_1149 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

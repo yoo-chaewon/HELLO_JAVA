@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
-
+//삼각형
 public class Q_1932 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
