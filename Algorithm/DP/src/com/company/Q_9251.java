@@ -1,4 +1,4 @@
 package com.company;
 
-public class Q_11066 {
+public class Q_9251 {
 }
