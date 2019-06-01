@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
-
+//계단 오르기
 public class Q_2579 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);

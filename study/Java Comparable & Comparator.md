@@ -223,3 +223,40 @@ class Student implements Comparable<Student>{
 이는 나이가 많은 순을 구현한 것.(나이가 많을 수록 학생이 우선순위가 높다)
 
 음수인지, 양수인지에 따라 우선 순위가 결정됨.
+
+```java
+import java.util.PriorityQueue;
+
+public class test {
+    public static void main(String[] args){
+        PriorityQueue<Student> queue = new PriorityQueue<>();
+        queue.offer(new Student("가", 23));
+        queue.offer(new Student("나", 20));
+        queue.offer(new Student("라", 10));
+        queue.offer(new Student("마", 40));
+        queue.offer(new Student("다", 50));
+        queue.offer(new Student("알콩", 2));
+
+        while (!queue.isEmpty()){
+            System.out.println(queue.poll().age);//작은숫자부터 출력
+        }
+
+
+    }
+}
+class Student implements Comparable<Student>{
+    String name;
+    int age;
+    Student(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return this.age > o.age ? 1:-1;
+    }
+}
+
+```
+
