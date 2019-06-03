@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 //https://programmers.co.kr/learn/courses/30/lessons/42588
+//[6,9,5,7,4]	[0,0,2,2,4]
 public class Q_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -13,12 +14,14 @@ public class Q_1 {
             heights[i] = scanner.nextInt();
         }
         int[] result = new int[size];
-        result = solution(heights);
+        result = Solution.solution(heights);
         for (int a : result) {
             System.out.print(a + " ");
         }
     }
 
+}
+class Solution{
     public static int[] solution(int[] heights) {
         int[] answer = new int[heights.length];
         Queue<Integer> queue = new LinkedList<>();
