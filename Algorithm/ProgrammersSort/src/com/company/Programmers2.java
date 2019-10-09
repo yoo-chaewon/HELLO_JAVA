@@ -1,9 +1,7 @@
 package com.company;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
 
 public class Programmers2 {
     public static void main(String[] args){
@@ -13,22 +11,28 @@ public class Programmers2 {
         for (int i = 0; i < size; i++){
             numbers[i] = scanner.nextInt();
         }
+
         System.out.println(Solution02.solution(numbers));
     }
 }
 class Solution02 {
     public static String solution(int[] numbers) {
         String answer = "";
-        int cur = 0;
-        int[] result = new int[numbers.length];
-
-        for (int i = cur; i < numbers.length; i++){
-            for (int j = i+1; j < numbers.length; j++){
-
+        String[] strArr = new String[numbers.length];
+        for (int i = 0; i < numbers.length; i++){
+            strArr[i] = String.valueOf(numbers[i]);
+        }
+        Arrays.sort(strArr, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return (o2+o1).compareTo(o1+o2);
             }
-            int index = i;
-            Collections.swap(numbers, i ,j);
-//            result[cur++] =
+        });
+
+        if (strArr[0].equals("0")) return "0";
+
+        for (String str: strArr){
+            answer += str;
         }
 
         return answer;
