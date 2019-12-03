@@ -1,27 +1,49 @@
-package com.company;
-
-import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
-public class Q_1003_DP {
+public class Main {
+    static int size;
     static int[][] map;
-    public static void main(String[] args) throws Exception{
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        int test_case = Integer.parseInt(bufferedReader.readLine());
-        while (test_case -- > 0){
-            int num = Integer.parseInt(bufferedReader.readLine());
-            map = new int[num+2][2];
+    static boolean[][] visited;
 
-            map[0][0] = 1;
-            map[1][1] = 1;
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(new InputStreamReader(System.in));
+        size = scanner.nextInt();
+        map = new int[size][size];
+        visited = new boolean[size][size];
 
-            for (int i = 2; i < num+1; i++){
-                for (int j = 0; j < 2; j++){
-                    map[i][j] = map[i-1][j] + map[i-2][j];
+        for (int i = 0; i < size; i++){
+            for (int j = 0; j < size; j++){
+                map[i][j] = scanner.nextInt();
+            }
+        }
+
+        for (int i = 0; i < size; i++){
+            for (int j = 0; j < size; j++){
+                if (map[i][j] == 1 && !visited[i][j]){
+                    DFS(i, j, i);
+
                 }
             }
+        }
 
-            System.out.println(map[num][0] + " " + map[num][1]);
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                System.out.print(map[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void DFS(int top, int x, int y) {
+        map[top][x] = 1;
+        visited[top][x] = true;
+
+        for (int i = 0; i < size; i++){
+            if (map[x][i] == 1 && !visited[top][i])
+                DFS(top, i, x);
         }
     }
 }
+
+
