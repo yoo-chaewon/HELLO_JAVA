@@ -1,28 +1,25 @@
-package com.company;
-
+import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.Arrays;
 
-public class Q_2217 {
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(new InputStreamReader(System.in));
-        int num = scanner.nextInt();
-        ArrayList<Integer> ropes = new ArrayList<>();
-        for (int i = 0; i < num; i++){
-            ropes.add(scanner.nextInt());
-        }
-        Collections.sort(ropes);
+public class Main {
+    public static void main(String[] args) throws Exception {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        int cur = ropes.size() - 1;
-        int result = 0;
-        int temp;
-        while (cur >= 0) {
-            temp = ropes.size() - cur;
-            result = Math.max(result, ropes.get(cur)*temp);
-            cur--;
+        int N = Integer.parseInt(bufferedReader.readLine());
+        int[] arr = new int[N];
+        for (int i = 0; i < N; i++){
+            arr[i] = Integer.parseInt(bufferedReader.readLine());
         }
-        System.out.println(result);
+        int max = Integer.MIN_VALUE;
+
+        Arrays.sort(arr);
+        for (int i = N-1; i >= 0; i--){
+            max = Math.max(max, arr[i] * (N-i));
+        }
+
+        System.out.println(max);
     }
 }
+
+
