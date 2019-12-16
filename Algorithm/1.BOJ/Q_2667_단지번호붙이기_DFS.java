@@ -1,7 +1,10 @@
+package com.company;
+
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.Collections;
 
 public class Main {
     static boolean[][] visited;
@@ -34,6 +37,7 @@ public class Main {
             }
         }
         System.out.println(count);
+        Collections.sort(answer);
         for (int a: answer){
             System.out.println(a);
         }
