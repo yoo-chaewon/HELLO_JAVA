@@ -1,6 +1,3 @@
-package com.company;
-
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -44,12 +41,11 @@ public class Main {
     }
 
     public static void DFS(int[][] map, int x, int y) {
-        temp++;
         int[] dx = {-1, 1, 0, 0};
         int[] dy = {0, 0, -1, 1};
 
         visited[y][x] = true;
-
+        temp++;
 
         for (int i = 0; i < 4; i++) {
             int curX = x + dx[i];
