@@ -46,11 +46,11 @@ public class Main {
         count++;
         visited[y][x] = true;
         for (int i =0; i < 4; i++){
-            int curX = x + dx[i];
-            int curY = y + dy[i];
+            int nextX = x + dx[i];
+            int nextY = y + dy[i];
 
-            if (curX < 0 || size <= curX || curY < 0 || size <= curY || visited[curY][curX] || map[curY][curX] == 0) continue;
-            DFS(curX, curY);
+            if (nextX < 0 || size <= nextX || nextY < 0 || size <= nextY || visited[nextY][nextX] || map[nextY][nextX] == 0) continue;
+            DFS(nextX, nextY);
         }
     }
 }
