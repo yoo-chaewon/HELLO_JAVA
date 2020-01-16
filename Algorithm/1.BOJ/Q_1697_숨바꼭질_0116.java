@@ -1,27 +1,36 @@
-package com.company;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
 
-public class Q_1003_DP {
-    static int[][] map;
-    public static void main(String[] args) throws Exception{
+public class Main {
+    static int MAX = 100000;
+    public static void main(String[] args) throws Exception {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        int test_case = Integer.parseInt(bufferedReader.readLine());
-        while (test_case -- > 0){
-            int num = Integer.parseInt(bufferedReader.readLine());
-            map = new int[num+2][2];
-
-            map[0][0] = 1;
-            map[1][1] = 1;
-
-            for (int i = 2; i < num+1; i++){
-                for (int j = 0; j < 2; j++){
-                    map[i][j] = map[i-1][j] + map[i-2][j];
-                }
+        String[] input = bufferedReader.readLine().split(" ");
+        int N = Integer.parseInt(input[0]);//수빈위치
+        int K = Integer.parseInt(input[1]);//동생위치
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(N);
+        int[] map = new int[MAX + 1];
+        while (!queue.isEmpty()) {
+            int temp = queue.poll();
+            if (temp == K){
+                System.out.print(map[temp]);
+                return;
             }
+            int[] next = new int[3];
+            next[0] = temp - 1;
+            next[1] = temp + 1;
+            next[2] = temp * 2;
 
-            System.out.println(map[num][0] + " " + map[num][1]);
+            for (int i = 0; i < 3; i++) {
+                if (next[i] < 0 || next[i] > MAX || map[next[i]] != 0) {
+                    continue;
+                }
+                map[next[i]] = map[temp] + 1;
+                queue.add(next[i]);
+            }
         }
     }
 }
