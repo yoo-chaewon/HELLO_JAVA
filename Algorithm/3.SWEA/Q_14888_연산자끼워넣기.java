@@ -1,13 +1,12 @@
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
     static char[] operators = {'+', '-', '*', '/'};
     static int N;
     static int[] operand;
-    static ArrayList<Integer> answer = new ArrayList<>();
+    static int maxAnswer = Integer.MIN_VALUE;
+    static int minAnswer = Integer.MAX_VALUE;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(new InputStreamReader(System.in));
@@ -31,14 +30,15 @@ public class Main {
         String result = "";
         Permutation(0, operator, visited, result);
 
-        Collections.sort(answer);
-        System.out.println(answer.get(answer.size() - 1));
-        System.out.println(answer.get(0));
+        System.out.println(maxAnswer);
+        System.out.println(minAnswer);
     }
 
     public static void Permutation(int depth, char[] operator, boolean[] visited, String result) {
         if (depth == N - 1) {
-            answer.add(Calculation(operand, result));
+            minAnswer = Math.min(minAnswer, Calculation(operand, result));
+            maxAnswer = Math.max(maxAnswer, Calculation(operand, result));
+
             return;
         }
 
