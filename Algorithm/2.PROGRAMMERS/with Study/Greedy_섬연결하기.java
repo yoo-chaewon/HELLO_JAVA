@@ -16,7 +16,6 @@ class Solution {
             int b = costs[i][1];
 
             if (findParent(a) != findParent(b)){
-                System.out.println(costs[i][2]);
                 answer += costs[i][2];
                 Merge(a, b);
             }
