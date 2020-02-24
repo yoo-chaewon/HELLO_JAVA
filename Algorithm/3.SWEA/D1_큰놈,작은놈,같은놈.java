@@ -1,3 +1,5 @@
+package com.company;
+
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
