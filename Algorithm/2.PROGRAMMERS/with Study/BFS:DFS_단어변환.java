@@ -9,14 +9,14 @@ class Solution {
         mtarget = target;
         mwords = words;
         visited = new boolean[words.length];
-        DFS(begin, 0, 0, begin + " ");
+        DFS(begin, 0);
+
         if (flag) return answer;
         else return 0;
     }
 
-    public static void DFS(String cur, int indx, int count, String result) {
+    public static void DFS(String cur, int count) {
         if (cur.equals(mtarget)) {
-//            System.out.println(result);
             answer = Math.min(count, answer);
             flag = true;
             return;
@@ -30,7 +30,7 @@ class Solution {
                 }
                 if (tmp >= mtarget.length()-1) {
                     visited[i] = true;
-                    DFS(mwords[i], i + 1, count + 1, result + mwords[i] + " ");
+                    DFS(mwords[i], count + 1);
                     visited[i] = false;
                 }
             }
