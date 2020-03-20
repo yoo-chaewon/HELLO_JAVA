@@ -1,41 +1,42 @@
 import java.util.*;
 class Solution {
     static ArrayList<String> results = new ArrayList<>();
-    static int end = 0;
     public static String[] solution(String[][] tickets) {
-        HashMap<String, ArrayList> map = new HashMap<>();
-        end = tickets.length+1;
+        Arrays.sort(tickets, new Comparator<String[]>() {
+            @Override
+            public int compare(String[] o1, String[] o2) {
+                return o1[1].compareTo(o2[1]);
+            }
+        });
 
-        for (int i = 0; i < tickets.length; i++){
-            String key = tickets[i][0];
-            ArrayList<String> arrayList = new ArrayList<>();
-            if (map.containsKey(key)) arrayList = map.get(key);
-            arrayList.add(tickets[i][1]);
-            Collections.sort(arrayList);
-            map.put(key, arrayList);
+        for (int i = 0; i < tickets.length; i++) {
+            String start = tickets[i][0];
+            String end = tickets[i][1];
+            if (start.equals("ICN")) {
+                boolean[] visited = new boolean[tickets.length];
+
+                visited[i] = true;
+                DFS(tickets, visited, end, 1, "ICN");
+                visited[i] = false;
+            }
         }
-        Go(map, "ICN", 1, "ICN");
-        String[] anwer = results.get(0).split(" ");
-        return anwer;
+        return results.get(0).split(" ");
     }
 
-    public static void Go(HashMap<String, ArrayList> map, String key, int depth, String result){
-        ArrayList<String> list = map.get(key);
-        if (depth == end) {
-            results.add(result);
+    public static void DFS(String[][] ticket, boolean[] visited, String start, int depth, String result) {
+        if (depth  == ticket.length) {
+            results.add(result + " " + start);
             return;
         }
-        if (list == null) return;
 
-        for (int i = 0; i < list.size(); i++){
-            String newKey = list.get(i);
-            list.remove(i);
-            map.put(key, list);
-            Go(map, newKey, depth+1, result + " " + newKey);
+        for (int i = 0; i < ticket.length; i++) {
+            if (!visited[i] && ticket[i][0].equals(start)) {
 
-            list.add(newKey);
-            Collections.sort(list);
-            map.put(key, list);
+                visited[i] = true;
+                DFS(ticket, visited, ticket[i][1], depth + 1, result + " " + ticket[i][0]);
+                visited[i] = false;
+
+            }
         }
     }
 }
