@@ -1,4 +1,5 @@
 import java.util.*;
+//효율성 0점 : 78점
 public class Solution {
     public long[] solution(long k, long[] room_number) {
         LinkedHashSet<Long> result = new LinkedHashSet<>();
